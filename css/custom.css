@@ -170,35 +170,35 @@
     	position: absolute;
     }
 
-    .html {
+    .android {
     	width: 95%;  /* YOUR SKILL VALUE HERE */
     	-moz-animation: html 15s ease-out;
     	-webkit-animation: html 15s ease-out;
     	background-color: #e67e22;
     }
 
-    .css {
+    .ios {
     	width: 90%; /* YOUR SKILL VALUE HERE */
     	-moz-animation: css 15s ease-out;
     	-webkit-animation: css 15s ease-out;
     	background-color: #e67e22;
     }
 
-    .java {
+    .node {
     	width: 55%; /* YOUR SKILL VALUE HERE */
     	-moz-animation: java 15s ease-out;
     	-webkit-animation: java 15s ease-out;
     	background-color: #e67e22;
     }
 
-    .php {
-    	width: 65%; /* YOUR SKILL VALUE HERE */
+    .ux {
+    	width: 75%; /* YOUR SKILL VALUE HERE */
     	-moz-animation: php 15s ease-out;
     	-webkit-animation: php 15s ease-out;
     	background-color: #e67e22;	
     }
 
-    .psd {
+    .ui {
     	width: 85%; /* YOUR SKILL VALUE HERE */
     	-moz-animation: psd 15s ease-out;
     	-webkit-animation: psd 15s ease-out;
