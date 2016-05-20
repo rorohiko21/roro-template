@@ -13,20 +13,13 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 - 2013 unless othe
 */
 
 #sequence {
-  margin-left: 10%;
-  margin-right: 10%;
   position: absolute;
   overflow: hidden;
   width: 100%;
-  max-width: 1200px;
-  background-repeat: no-repeat;
-  background-position: 50% 100%;
-  color: white;
   font-size: 0.625em;
   margin: 0 auto;
   position: relative;
   position: fixed;
-  height: 600px;
   z-index: 200;
 }
 #sequence > .sequence-canvas {
@@ -275,18 +268,12 @@ h3 {
   }
 }
 @media only screen and (max-width: 838px) {
-  #sequence {
-    height: 550px;
-  }
   #sequence .slider-image {
     max-height: 530px !important;
     width: auto;
   }
 }
 @media only screen and (max-width: 768px) {
-  #sequence {
-    height: 500px;
-  }
   #sequence .title {
     font-size: 4.8em;
   }
@@ -371,37 +358,24 @@ h3 {
   }
 }
 @media only screen and (max-width: 518px) {
-  #sequence {
-    height: 450px;
-  }
+
 }
 @media only screen and (max-width: 468px) {
-  #sequence {
-    height: 415px;
-  }
   #sequence .sequence-pagination {
     opacity: 0;
     visibility: hidden;
   }
 }
 @media only screen and (max-width: 418px) {
-  #sequence {
-    height: 375px;
-  }
+
 }
 @media only screen and (max-width: 368px) {
-  #sequence {
-    height: 325px;
-  }
   #sequence .title {
     font-size: 2.2em;
   }
 }
 @media only screen and (max-width: 320px) and (orientation: portrait) {
-  /*iphone portrait*/
-  #sequence {
-    height: 320px;
-  }
+
   #sequence .slider-image {
     min-width: 45%;
     width: 45%;
@@ -414,9 +388,6 @@ h3 {
   }
 }
 @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
-  #sequence {
-    height: 260px;
-  }
   #sequence .slider-image {
     min-width: 24%;
     width: 24%;
