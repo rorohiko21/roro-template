@@ -314,14 +314,6 @@
     }
 */
 
-    #zoom-img {
-	    -webkit-transition: all 1s ease;
-        -moz-transition: all 1s ease;
-        -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-        transition: all 1s ease;
-    }
-
     /* zoom effect  */ 
     #zoom {
         -webkit-transition: all 1s ease;
@@ -334,13 +326,22 @@
     #zoom:hover {
         width: 180px;
         height: 180px;
-        border: 4px solid #334d66;
-        border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    -moz-border-radius: 50%;
+    }
+
+    #zoom-img {
+	    -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
     }
     
     #zoom-img:hover {
+        width: 120px;
+        height: 120px;
+    }
+
+    #zoom:hover #zoom-img {
         width: 120px;
         height: 120px;
     }
