@@ -265,9 +265,6 @@
 
     .service-col:hover > div {
         text-shadow: 1px -1px 0px rgba(0,0,0,0.5);
-	    -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
         border-radius: 50%;
 	    -webkit-border-radius: 50%;
 	    -moz-border-radius: 50%;
@@ -289,6 +286,68 @@
         -o-transform: rotate(360deg);
         border-radius: 50%;   
     }
+
+/*
+    #zoom {
+	    border: 4px solid #334d66;
+	    width: 150px;
+	    height: 150px;
+	    border-radius: 150px;
+	    -webkit-border-radius: 150px;
+	    -moz-border-radius: 150px; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    
+    #zoom:hover {
+        width: 100px;
+        height: 100px;
+        border: 4px solid #334d66;
+        border-radius: 180px;
+	    -webkit-border-radius: 180px;
+	    -moz-border-radius: 180px;
+    }
+*/
+
+    #zoom-img {
+	    -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    /* zoom effect  */ 
+    #zoom {
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    
+    #zoom:hover {
+        width: 180px;
+        height: 180px;
+        border: 4px solid #334d66;
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    #zoom-img:hover {
+        width: 120px;
+        height: 120px;
+    }
+    
+    img.scale-with-grid {
+		max-width: 100%;
+		height: auto; 
+    }
+    
     
    /* Icons  */
     
@@ -330,6 +389,14 @@
         text-transform: uppercase;
         font-size: 20px;
 	    padding: 10px 20px;
+    }
+
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active,
+    .btn-primary.active,
+    .open .dropdown-toggle.btn-primary {
+        color: #ffffff;
     }
 
     /* 6. PORTFOLIO
@@ -914,25 +981,6 @@
         -moz-transform: rotate(360deg);
         -o-transform: rotate(360deg);
         border-radius: 50%;
-    }
-    
-    /* zoom effect  */
-     
-    #zoom {
-        -webkit-transition: all 1s ease;
-        -moz-transition: all 1s ease;
-        -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-        transition: all 1s ease;
-    }
-    
-    #zoom:hover {
-        width: 280px;
-        height: 280px;
-        border: 4px solid #334d66;
-        border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    -moz-border-radius: 50%;
     }
     
     /* SOCIAL FONT ICON STYLES  */
