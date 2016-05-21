@@ -820,6 +820,8 @@
     
      a.social-media {
     	padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px; 
 		position: relative;
 		z-index: 300;
 		text-align: center;
