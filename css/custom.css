@@ -391,12 +391,12 @@
 	    padding: 10px 20px;
     }
 
-    .btn-primary:hover,
-    .btn-primary:focus,
-    .btn-primary:active,
-    .btn-primary.active,
+    .btn-hire:hover,
+    .btn-hire:focus,
     .open .dropdown-toggle.btn-primary {
-        color: #ffffff;
+        color: #eeeeee;
+        background-color: #27ad60;
+        border-color: #ffffff;
     }
 
     /* 6. PORTFOLIO
