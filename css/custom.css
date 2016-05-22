@@ -78,6 +78,19 @@
         min-height: 80px;    
     }
 
+    .navbar-roro {
+        float: left;
+    }
+
+    #roro-logo-text {
+	    display: block;
+        font-size: 50px;
+        font-family: monospace;
+        letter-spacing: 15px;
+        text-align: center;
+        color: white;
+    }
+    
     .navbar-nav {
         float: right;
     }
@@ -94,7 +107,7 @@
     }
 
     .navbar-inverse .navbar-nav > li > a {
-        font-size: 12px;
+        font-size: 18px;
         font-family: monospace;
         font
         color: #fff;
