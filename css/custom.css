@@ -72,12 +72,25 @@
 
     #roro-logo-text {
 	    display: block;
-        font-size: 50px;
+        font-size: 40px;
         font-family: monospace;
-        letter-spacing: 15px;
+        letter-spacing: 10px;
         text-align: center;
         color: white;
         padding-top: 5px;
+    }
+
+    @media (min-width: 768px) {
+    
+        #roro-logo-text {
+            display: block;
+            font-size: 50px;
+            font-family: monospace;
+            letter-spacing: 15px;
+            text-align: center;
+            color: white;
+            padding-top: 5px;
+        }
     }
     
     .navbar-nav {
