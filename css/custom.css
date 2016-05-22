@@ -23,7 +23,7 @@
     -------------------------------------------------- */
     
     h1 {
-	    font-size: 60px;
+	    font-size: 50px;
 	    text-transform: uppercase;
 	    text-align: center;
     }
@@ -39,7 +39,8 @@
 	}
 	
 	h4 {
-	    font-size: 30px;
+	    font-size: 22px;
+        font-family: sans-serif;
 	}
 	
 	h5 {
@@ -53,6 +54,8 @@
 	.subhead {
 		color: #fff;
 		text-align: center;
+        font-size: 15px;
+        font-family: monospace;
 	}
 
 
@@ -340,8 +343,8 @@
     }
     
     #zoom:hover {
-        width: 180px;
-        height: 180px;
+        width: 170px;
+        height: 170px;
     }
 
     #zoom-img {
@@ -350,16 +353,19 @@
         -o-transition: all 1s ease;
         -ms-transition: all 1s ease;
         transition: all 1s ease;
+        width: 80px;
+        height: 80px;
+        margin-top: 38px;
     }
     
     #zoom-img:hover {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     #zoom:hover #zoom-img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
     
     img.scale-with-grid {
@@ -374,9 +380,8 @@
         background: url('../img/icon-bg.png') repeat-x center center;
         position: relative;
         display: inline-block;
-        width: 140px;
-        height: 140px;
-        padding-top: 25px;
+        width: 147px;
+        height: 147px;
         border-radius: 50%;
 	    -webkit-border-radius: 50%;
 	    -moz-border-radius: 50%;
@@ -386,9 +391,8 @@
         background: url('../img/icon-bg.png') repeat-x center center;
         position: relative;
         display: inline-block;
-        width: 140px;
-        height: 140px;
-        padding-top: 22px;
+        width: 147px;
+        height: 147px;
         border-radius: 50%;
 	    -webkit-border-radius: 50%;
 	    -moz-border-radius: 50%;
@@ -1043,7 +1047,7 @@
     /* FONT STYLES  */
     
     .head {
-	    margin-bottom: 60px;
+	    margin-bottom: 30px;
     }
     
 	/* different font colors  */
