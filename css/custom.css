@@ -83,11 +83,20 @@
     }
     
     .navbar-nav > li > a {
-        line-height: 60px;
+        line-height: 40px;
+    }
+    
+    @media (min-width: 768px) {
+    
+        .navbar-nav > li > a {
+            line-height: 60px;
+        }
     }
 
     .navbar-inverse .navbar-nav > li > a {
-        font-size: 18px;
+        font-size: 12px;
+        font-family: monospace;
+        font
         color: #fff;
     }
     .navbar-inverse .navbar-nav > li > a:hover,
