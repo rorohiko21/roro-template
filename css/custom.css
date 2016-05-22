@@ -84,8 +84,6 @@
     
     .navbar-nav > li > a {
         line-height: 60px;
-        padding-left: 30px;
-        padding-right: 0px;
     }
 
     .navbar-inverse .navbar-nav > li > a {
@@ -904,7 +902,6 @@
     
     .bottom-con {
 	    padding-bottom: 10px;
-        float: right;
     }
     
     .bottom-con h5 {
