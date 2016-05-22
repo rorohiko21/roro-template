@@ -215,7 +215,7 @@
     }
 
     .node {
-    	width: 55%;
+    	width: 70%;
     	-moz-animation: node 6s ease-out;
     	-webkit-animation: node 6s ease-out;
     	background-color: #e67e22;
@@ -239,14 +239,14 @@
 
     @-moz-keyframes android     { 0%  { width:0px;} 100%{ width:95%;}  }
     @-moz-keyframes ios         { 0%  { width:0px;} 100%{ width:90%;}  }
-    @-moz-keyframes node        { 0%  { width:0px;} 100%{ width:55%;}  }
-    @-moz-keyframes ux          { 0%  { width:0px;} 100%{ width:65%;}  }
+    @-moz-keyframes node        { 0%  { width:0px;} 100%{ width:70%;}  }
+    @-moz-keyframes ux          { 0%  { width:0px;} 100%{ width:75%;}  }
     @-moz-keyframes ui          { 0%  { width:0px;} 100%{ width:85%;}  }
 
     @-webkit-keyframes android  { 0%  { width:0px;} 100%{ width:95%;}  }
     @-webkit-keyframes ios      { 0%  { width:0px;} 100%{ width:90%;}  }
-    @-webkit-keyframes node     { 0%  { width:0px;} 100%{ width:55%;}  }
-    @-webkit-keyframes ux       { 0%  { width:0px;} 100% { width:65%;}  }
+    @-webkit-keyframes node     { 0%  { width:0px;} 100%{ width:70%;}  }
+    @-webkit-keyframes ux       { 0%  { width:0px;} 100% { width:75%;}  }
     @-webkit-keyframes ui       { 0%  { width:0px;} 100% { width:85%;}  }
     
     /* 5. SERVICE

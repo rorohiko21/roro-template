@@ -69,6 +69,7 @@
         opacity: 60%;
         font-size: 14px;
         font-family: monospace;
+        text-align: left;
     }
     
      .service-col:hover p {
