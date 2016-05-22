@@ -261,7 +261,7 @@
     
     #process {
 	    background: #27ad60;
-	    padding: 70px 0px ;
+	    padding: 50px 0px ;
 	    display: block;
         width: 100%;
         overflow: hidden;
@@ -278,7 +278,8 @@
     }
     
     .process-con h5 {  
-        color: #c1c1c1;
+        font-family: sans-serif;
+        color: white;
     }
     
     .process-img { 
@@ -287,7 +288,7 @@
     }
     
     .process-img:hover {
-	    background: #e67e22;
+	    background: #2c3e50;
 	    color: #fff;
     }
 
@@ -458,7 +459,7 @@
 	.our-process { 
        background: #27ad60 url(../img/howWeDo/our-process-theme2-mobil.svg) no-repeat center top; 
        min-height: 1200px;
-       margin-bottom: 150px;
+       margin-bottom: 100px;
     }
     
     .process-con h5 {  

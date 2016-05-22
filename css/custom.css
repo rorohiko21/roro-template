@@ -292,23 +292,6 @@
 	    -webkit-border-radius: 50%;
 	    -moz-border-radius: 50%;
     }
-    
-    /* Icon rotation effect  */
-    
-    .rotate {
-	    -webkit-transition-duration: 0.8s;
-        -moz-transition-duration: 0.8s;
-        -o-transition-duration: 0.8s;
-        transition-duration: 0.8s;
-        border-radius: 50%;
-    }
-    
-    .rotate:hover {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        border-radius: 50%;   
-    }
 
 /*
     #zoom {
@@ -335,7 +318,7 @@
     }
 */
 
-    /* zoom effect  */ 
+    /* zoom effect for services  */ 
     #zoom {
         -webkit-transition: all 1s ease;
         -moz-transition: all 1s ease;
@@ -730,7 +713,7 @@
     .our-process { 
         width: 100%; 
         position: relative; 
-        min-height: 460px; 
+        min-height: 420px; 
         text-align: center; 
         margin: 10px 0;
     }
@@ -755,7 +738,7 @@
         font-weight: 400; 
         margin-top: 15px;
         text-align: center; 
-        position: relative; 
+        position: relative;
     }
     
     .process-con.img1 .process-img { 
@@ -776,11 +759,58 @@
         position: relative;
         display: inline-block;
         overflow: hidden; 
-        width: 250px; 
-        height: 250px;  
+        width: 221px; 
+        height: 221px;  
         border-radius: 50%;
-        padding-top: 25px; 
+        padding-top: 60px; 
     }
+
+    /* Icon rotation effect  */
+    
+    .rotate {
+	    -webkit-transition-duration: 1.2s;
+        -moz-transition-duration: 1.2s;
+        -o-transition-duration: 1.2s;
+        transition-duration: 1.2s;
+        border-radius: 50%;
+    }
+    
+    .rotate:hover {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;   
+    }
+
+    /* zoom effect for processes */
+    #zoom-img-process {
+	    -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        width: 103px;
+        height: 103px;
+    }
+    
+    #zoom-img-process:hover {
+        width: 123px;
+        height: 123px;
+    }
+    
+    .zoom-process {
+        
+    }
+    
+    .zoom-process:hover {
+        padding-top: 50px;
+    }
+    
+    .zoom-process:hover #zoom-image-process {
+        width: 123px;
+        height: 123px;
+    }
+    
  
      /* 10. CLIENTS
     -------------------------------------------------- */
@@ -990,25 +1020,7 @@
 	    width: 20%;
 	    height: 1px;
     }
-
-    /* IMAGE STYLES  */
     
-    /* rotate effect  */
-    
-    #rotate {
-	    -webkit-transition-duration: 0.8s;
-        -moz-transition-duration: 0.8s;
-        -o-transition-duration: 0.8s;
-        transition-duration: 0.8s;
-        border-radius: 50%;
-    }
-    
-    #rotate:hover {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        border-radius: 50%;
-    }
     
     /* SOCIAL FONT ICON STYLES  */
     
