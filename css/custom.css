@@ -166,8 +166,8 @@
      /* #Skills */
 
     .skills {
-    	padding-top: 5px;
-    	padding-bottom: 20px;
+    	padding-top: 2px;
+    	padding-bottom: 50px;
     }
 
     #skillbar { 
@@ -179,7 +179,7 @@
     }
 
     #skillbar li { 
-        margin-top: 35px;
+        margin-top: 45px;
     	margin-bottom: 15px; 
     	background: #dcd5d5;  
     	height: 10px; 
@@ -189,7 +189,9 @@
         padding-top: 15px;
         text-align: left;
         margin-left: 2px;
-        font-size: 12px;
+        font-size: 14px;
+        font-family: monospace;
+        margin-bottom: 5px;
     }
 
     .skillbar { 
@@ -199,53 +201,53 @@
     }
 
     .android {
-    	width: 95%;  /* YOUR SKILL VALUE HERE */
-    	-moz-animation: html 15s ease-out;
-    	-webkit-animation: html 15s ease-out;
+    	width: 95%;
+    	-moz-animation: android 6s ease-out;
+    	-webkit-animation: android 6s ease-out;
     	background-color: #e67e22;
     }
 
     .ios {
-    	width: 90%; /* YOUR SKILL VALUE HERE */
-    	-moz-animation: css 15s ease-out;
-    	-webkit-animation: css 15s ease-out;
+    	width: 90%;
+    	-moz-animation: ios 6s ease-out;
+    	-webkit-animation: ios 6s ease-out;
     	background-color: #e67e22;
     }
 
     .node {
-    	width: 55%; /* YOUR SKILL VALUE HERE */
-    	-moz-animation: java 15s ease-out;
-    	-webkit-animation: java 15s ease-out;
+    	width: 55%;
+    	-moz-animation: node 6s ease-out;
+    	-webkit-animation: node 6s ease-out;
     	background-color: #e67e22;
     }
 
     .ux {
-    	width: 75%; /* YOUR SKILL VALUE HERE */
-    	-moz-animation: php 15s ease-out;
-    	-webkit-animation: php 15s ease-out;
+    	width: 75%;
+    	-moz-animation: ux 6s ease-out;
+    	-webkit-animation: ux 6s ease-out;
     	background-color: #e67e22;	
     }
 
     .ui {
-    	width: 85%; /* YOUR SKILL VALUE HERE */
-    	-moz-animation: psd 15s ease-out;
-    	-webkit-animation: psd 15s ease-out;
+    	width: 85%;
+    	-moz-animation: ui 6s ease-out;
+    	-webkit-animation: ui 6s ease-out;
     	background-color: #e67e22;	
     }
     
     /* animation keyframes */
 
-    @-moz-keyframes html {0%  { width:0px;} 100%{ width:95%;}  }
-    @-moz-keyframes css        { 0%  { width:0px;} 100%{ width:90%;}  }
-    @-moz-keyframes java      { 0%  { width:0px;} 100%{ width:55%;}  }
-    @-moz-keyframes php   { 0%  { width:0px;} 100%{ width:65%;}  }
-    @-moz-keyframes psd   { 0%  { width:0px;} 100%{ width:85%;}  }
+    @-moz-keyframes android     { 0%  { width:0px;} 100%{ width:95%;}  }
+    @-moz-keyframes ios         { 0%  { width:0px;} 100%{ width:90%;}  }
+    @-moz-keyframes node        { 0%  { width:0px;} 100%{ width:55%;}  }
+    @-moz-keyframes ux          { 0%  { width:0px;} 100%{ width:65%;}  }
+    @-moz-keyframes ui          { 0%  { width:0px;} 100%{ width:85%;}  }
 
-    @-webkit-keyframes html       { 0%  { width:0px;} 100%{ width:95%;}  }
-    @-webkit-keyframes css        { 0%  { width:0px;} 100%{ width:90%;}  }
-    @-webkit-keyframes java      { 0%  { width:0px;} 100%{ width:55%;}  }
-    @-webkit-keyframes php   { 0%  { width:0px;} 100% { width:65%;}  }
-    @-webkit-keyframes psd   { 0%  { width:0px;} 100% { width:85%;}  }
+    @-webkit-keyframes android  { 0%  { width:0px;} 100%{ width:95%;}  }
+    @-webkit-keyframes ios      { 0%  { width:0px;} 100%{ width:90%;}  }
+    @-webkit-keyframes node     { 0%  { width:0px;} 100%{ width:55%;}  }
+    @-webkit-keyframes ux       { 0%  { width:0px;} 100% { width:65%;}  }
+    @-webkit-keyframes ui       { 0%  { width:0px;} 100% { width:85%;}  }
     
     /* 5. SERVICE
     -------------------------------------------------- */
