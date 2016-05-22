@@ -906,15 +906,27 @@
     
      /* 12. CONTACT
     -------------------------------------------------- */
+    .contact-us-subheader {
+        margin-top: 100px;
+    }
+
+    .contact-us-closing-line {
+        margin-top: 30px;
+    }
 
     .contact-us-text {
     
     }
     
-    .contact-us-text > a {
-        color: #2B3D4F;
+    .contact-us-email {
+        color: #fff;
         font-size: 25px;
         font-style: italic;
+        text-decoration: underline;
+    }
+    
+    .contact-us-email:hover {
+        color: #ddd;
         text-decoration: underline;
     }
 
@@ -988,12 +1000,19 @@
     
     /* GOING UP ARROW */
 
-    .up{
-	    width: 100px;
-	    height: 100px;
-	    border-radius: 50%;
+    .up {
+        width: 100px;
+        height: 50px; /* as the half of the width */
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-top: 0;
+
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        
 	    position: absolute;
-	    top: -85px;
+	    top: 0px;
 	    left: 50%;
 	    margin-left: -50px;
 	    -webkit-transition:  ease-out 0.5s;
@@ -1004,7 +1023,7 @@
 	}
 	
 	.up:hover{
-		top: -50px;
+		top: 0px;
 		-webkit-transition: all 0.5s linear;
         -moz-transition: all 0.5s linear;
         -o-transition: all 0.5s linear;
@@ -1014,9 +1033,9 @@
 	}
 	
 	.up span {
-	    font-size: 40px; 
-	    margin-top: 45px;
-	    margin-left: 32px;
+	    font-size: 30px; 
+	    margin-top: 5px;
+	    margin-left: 36px;
 	}
 	
 	/* 14. FEATURE STYLES
