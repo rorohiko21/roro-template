@@ -905,6 +905,17 @@
      /* 12. CONTACT
     -------------------------------------------------- */
 
+    .contact-us-text {
+    
+    }
+    
+    .contact-us-text > a {
+        color: blue;
+        font-size: 25px;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
     #map {
 	    height: 500px;
 	    z-index: 400 !important;
