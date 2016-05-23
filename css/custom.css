@@ -920,11 +920,15 @@
      /* 12. CONTACT
     -------------------------------------------------- */
     .contact-us-subheader {
+        font-family: monospace;
+        font-size: 18px;
         margin-top: 100px;
     }
 
     .contact-us-closing-line {
-        margin-top: 30px;
+        font-family: monospace;
+        font-size: 18px;
+        margin-top: 80px;
     }
 
     .contact-us-text {
@@ -933,7 +937,7 @@
     
     .contact-us-email {
         color: #fff;
-        font-size: 25px;
+        font-size: 30px;
         font-style: italic;
         text-decoration: underline;
     }
