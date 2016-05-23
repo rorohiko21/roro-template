@@ -375,8 +375,8 @@
 -------------- */
    
     #contact {
-        background: #2c3e50 url("../img/pattern_theme_1.svg") repeat;
-/*	    background: #27ad60;*/
+/*        background: #2c3e50 url("../img/pattern_theme_1.svg") repeat;*/
+	    background: #2c3e50;
 	    padding: 100px 0px 200px 0px;
 	    display: block;
         width: 100%;

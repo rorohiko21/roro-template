@@ -74,10 +74,10 @@
 	    display: block;
         font-size: 40px;
         font-family: monospace;
-        letter-spacing: 10px;
+        letter-spacing: 5px;
         text-align: center;
         color: white;
-        padding-top: 5px;
+        padding-top: 10px;
     }
 
     @media (min-width: 768px) {
@@ -86,7 +86,7 @@
             display: block;
             font-size: 50px;
             font-family: monospace;
-            letter-spacing: 15px;
+            letter-spacing: 7px;
             text-align: center;
             color: white;
             padding-top: 5px;
@@ -1015,17 +1015,11 @@
 
     .up {
         width: 100px;
-        height: 50px; /* as the half of the width */
-        border-bottom-left-radius: 100px;
-        border-bottom-right-radius: 100px;
-        border-top: 0;
-
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
+        height: 100px; 
+        border-radius: 50%;
         
 	    position: absolute;
-	    top: 0px;
+	    top: -65px;
 	    left: 50%;
 	    margin-left: -50px;
 	    -webkit-transition:  ease-out 0.5s;
@@ -1036,7 +1030,7 @@
 	}
 	
 	.up:hover{
-		top: 0px;
+		top: -50px;
 		-webkit-transition: all 0.5s linear;
         -moz-transition: all 0.5s linear;
         -o-transition: all 0.5s linear;
@@ -1046,9 +1040,9 @@
 	}
 	
 	.up span {
-	    font-size: 30px; 
-	    margin-top: 5px;
-	    margin-left: 36px;
+	    font-size: 40px; 
+        margin-top: 45px;
+        margin-left: 32px;
 	}
 	
 	/* 14. FEATURE STYLES
