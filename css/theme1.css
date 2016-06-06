@@ -6,9 +6,7 @@
     3. ABOUT US
     4. PORTFOLIO
     5. TEAM
-    6. PRICE TABLES
     7. PROCESS
-    8. CLIENTS
     9. FACTS
     10. CONTACT    
     11. FOOTER
@@ -214,49 +212,6 @@
         color: #000;
     }
     
-   
-    
-/* 6. Price
--------------- */
-    
-    #price {
-	    background: #2c3e50;
-	    padding: 70px 0px ;
-	    display: block;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-	    z-index: 900;
-    }
-    
-    #price h1 {
-	    color: #fff;
-    }
-    
-    .price-table {
-    	border: 1px solid #27ad60;
-    }
-    
-    .price-table-heading h3 {
-	    color: #c1c1c1 !important;
-    }
-    
-    .price-table:hover {
-        background: #e67e22;
-    }
-    
-    .the-price {
-		background-color: #27ad60;
-    }
-    
-    .table-feature {
-    	border: 2px solid #e67e22;
-	}
-	
-	.table-feature:hover {
-       background: #e67e22;
-    }
-    
     /* 6. Process
 -------------- */
     
@@ -294,45 +249,6 @@
     }
 
 
-/*7. Clients
--------------- */
-    
-    #clients {
-	    background: #2c3e50;
-	    padding: 70px 0px ;
-	    display: block;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-	    z-index: 1000;
-    }
-    
-    .testemonials p {
-	    color: #c1c1c1;
-    }
-    
-    .testemonials .author {
-	    color: #e67e22;
-    }
-    
-     #clients h1 {
-	    color: #fff;
-    }
-    
-    .nbs-flexisel-item {
-        border-bottom: 1px solid #fff;
-    }
-    
-    .nbs-flexisel-nav-left,
-    .nbs-flexisel-nav-right {
-        background-color: #443e44 !important;
-    }
-    
-    .nbs-flexisel-nav-left:hover,
-    .nbs-flexisel-nav-right:hover {
-        background-color: #e67e22 !important;
-    }
-     
 /* 8. FACTS
 -------------- */
     
