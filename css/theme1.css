@@ -19,7 +19,7 @@
 -------------- */
 
 .navbar-inverse {
-  background-color: #27ad60;
+  background-color: #03A9F4;
   -webkit-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.9);
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.9);
 }
@@ -27,14 +27,14 @@
 /* 1.1 Top-slider
 -------------------*/
 #top-slider {
-    background-color: #2c3e50;
+    background-color: #27496C;
 }
 
 /* 2. Service
 -------------- */
     
     #service {
-	    background: #27ad60;
+	    background: #03A9F4;
 	    padding: 70px 0px;
 	    display: block;
         width: 100%;
@@ -49,7 +49,7 @@
     }
     
     .service-col:hover {
-	    background: #2c3e50;
+	    background: #27496C;
 	    color: #fff;
     }
     
@@ -58,7 +58,7 @@
 	}
 	
 	.service-col:hover h4 {
-	    color: #27ad60 !important;
+	    color: #03A9F4 !important;
 	    border-bottom: 1px solid #fff;
     }
     
@@ -75,12 +75,12 @@
     }
     
     .service-col:hover > div {
-        background: #27ad60;
+        background: #03A9F4;
         color: #fff;
     }
     
     .icon-wrench, .icon-mobile, .icon-desktop {
-	    background-color: #2c3e50;
+	    background-color: #27496C;
         color: #e67e22;
     }   
 
@@ -88,7 +88,7 @@
 -------------- */
 
     #about {
-	    background: #2c3e50;
+	    background: #27496C;
 	    padding: 70px 0px ;
 	    display: block;
         width: 100%;
@@ -115,7 +115,7 @@
 -------------- */
     
     #portfolio {
-	    background: #2c3e50;
+	    background: #27496C;
 	    padding: 70px 0px ;
 	    display: block;
         width: 100%;
@@ -134,7 +134,7 @@
     }
     
     .caption h5 {
-        color: #2c3e50;
+        color: #27496C;
 	    border-bottom: 1px solid #fff;
 	}
     
@@ -142,7 +142,7 @@
 -------------- */
     
     #team {
-	    background: #27ad60;
+	    background: #03A9F4;
 	    padding: 70px 0px ;
 	    display: block;
         width: 100%;
@@ -156,7 +156,7 @@
 	    color: #fff;
     }
     .team:hover {
-	    background-color: #2c3e50;
+	    background-color: #27496C;
 	    color: #fff;
     }
     
@@ -216,7 +216,7 @@
 -------------- */
     
     #process {
-	    background: #27ad60;
+	    background: #03A9F4;
 	    padding: 50px 0px ;
 	    display: block;
         width: 100%;
@@ -230,7 +230,7 @@
     }
     
     .our-process { 
-        background: #27ad60 url(../img/howWeDo/our-process-theme2.svg) no-repeat center; 
+        background: #03A9F4 url(../img/howWeDo/our-process-theme2.svg) no-repeat center; 
     }
     
     .process-con h5 {  
@@ -239,12 +239,12 @@
     }
     
     .process-img { 
-        background-color: #2c3e50;
+        background-color: #27496C;
         color: #e67e22;
     }
     
     .process-img:hover {
-	    background: #2c3e50;
+	    background: #27496C;
 	    color: #fff;
     }
 
@@ -253,7 +253,7 @@
 -------------- */
     
     #facts {
-	    background: #2c3e50 url("../img/pattern_theme_1.svg") repeat;
+	    background: #27496C url("../img/pattern_theme_1.svg") repeat;
 	    padding: 70px 0px ;
 	    display: block;
         width: 100%;
@@ -291,8 +291,8 @@
 -------------- */
    
     #contact {
-/*        background: #2c3e50 url("../img/pattern_theme_1.svg") repeat;*/
-	    background: #2c3e50;
+/*        background: #27496C url("../img/pattern_theme_1.svg") repeat;*/
+	    background: #27496C;
 	    padding: 120px 0px 120px 0px;
 	    display: block;
         width: 100%;
@@ -315,7 +315,7 @@
 -------------- */
     
     #foot {
-	    background: #27ad60;
+	    background: #03A9F4;
 	    padding: 10px 0px ;
 	    display: block;
         width: 100%;
@@ -343,7 +343,7 @@
     /* GOING UP ARROW */
     
     .up {
-	    background: #2B3D4F;
+	    background: #27496C;
     }
     
     .up span:hover {
@@ -375,13 +375,13 @@
     @media only screen and (max-width: 767px) {
 	    
 	.our-process { 
-       background: #27ad60 url(../img/howWeDo/our-process-theme2-mobil.svg) no-repeat center top; 
+       background: #03A9F4 url(../img/howWeDo/our-process-theme2-mobil.svg) no-repeat center top; 
        min-height: 1200px;
        margin-bottom: 100px;
     }
     
     .process-con h5 {  
-       background: #27ad60; 
+       background: #03A9F4; 
     }
     
     }
