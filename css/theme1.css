@@ -19,7 +19,7 @@
 -------------- */
 
 .navbar-inverse {
-  background-color: #03A9F4;
+  background-color: #3B7EB5;
   -webkit-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.9);
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.9);
 }
@@ -34,7 +34,7 @@
 -------------- */
     
     #service {
-	    background: #03A9F4;
+	    background: #3B7EB5;
 	    padding: 70px 0px;
 	    display: block;
         width: 100%;
@@ -58,7 +58,7 @@
 	}
 	
 	.service-col:hover h4 {
-	    color: #03A9F4 !important;
+	    color: #3B7EB5 !important;
 	    border-bottom: 1px solid #fff;
     }
     
@@ -142,7 +142,7 @@
 -------------- */
     
     #team {
-	    background: #03A9F4;
+	    background: #3B7EB5;
 	    padding: 70px 0px ;
 	    display: block;
         width: 100%;
@@ -216,7 +216,7 @@
 -------------- */
     
     #process {
-	    background: #03A9F4;
+	    background: #3B7EB5;
 	    padding: 50px 0px ;
 	    display: block;
         width: 100%;
@@ -230,7 +230,7 @@
     }
     
     .our-process { 
-        background: #03A9F4 url(../img/howWeDo/our-process-theme2.svg) no-repeat center; 
+        background: #3B7EB5 url(../img/howWeDo/our-process-theme2.svg) no-repeat center; 
     }
     
     .process-con h5 {  
@@ -315,7 +315,7 @@
 -------------- */
     
     #foot {
-	    background: #03A9F4;
+	    background: #3B7EB5;
 	    padding: 10px 0px ;
 	    display: block;
         width: 100%;
@@ -375,13 +375,13 @@
     @media only screen and (max-width: 767px) {
 	    
 	.our-process { 
-       background: #03A9F4 url(../img/howWeDo/our-process-theme2-mobil.svg) no-repeat center top; 
+       background: #3B7EB5 url(../img/howWeDo/our-process-theme2-mobil.svg) no-repeat center top; 
        min-height: 1200px;
        margin-bottom: 100px;
     }
     
     .process-con h5 {  
-       background: #03A9F4; 
+       background: #3B7EB5; 
     }
     
     }
