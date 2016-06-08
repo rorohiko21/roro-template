@@ -109,12 +109,11 @@
     .navbar-inverse .navbar-nav > li > a {
         font-size: 18px;
         font-family: monospace;
-        font
-        color: #fff;
+        color: #eee;
     }
     .navbar-inverse .navbar-nav > li > a:hover,
     .navbar-inverse .navbar-nav > li > a:focus {
-        color: #cccccc;
+        color: #fff;
         background-color: transparent;
     }
 
@@ -373,7 +372,6 @@
    /* Icons  */
     
     .icon-wrench, .icon-mobile {
-        background: url('../img/icon-bg.png') repeat-x center center;
         position: relative;
         display: inline-block;
         width: 147px;
@@ -384,7 +382,6 @@
     }
     
     .icon-desktop {
-        background: url('../img/icon-bg.png') repeat-x center center;
         position: relative;
         display: inline-block;
         width: 147px;
@@ -513,7 +510,6 @@
     }
     
     .process-img { 
-        background:url('../img/icon-bg.png') repeat-x center center;
         text-shadow: 1px -1px 0px rgba(0,0,0,0.5);
         position: relative;
         display: inline-block;
