@@ -692,14 +692,14 @@
     }
     
     .contact-us-email {
-        color: #fff;
+        color: #ddd;
         font-size: 30px;
         font-style: italic;
         text-decoration: underline;
     }
     
     .contact-us-email:hover {
-        color: #ddd;
+        color: #fff;
         text-decoration: underline;
     }
 
