@@ -35,13 +35,18 @@
     
     #service {
 	    background: #3B7EB5;
-	    padding: 70px 0px;
+	    padding-bottom: 70px;
 	    display: block;
         width: 100%;
         overflow: hidden;
         position: relative;
 	    z-index: 900;
 	    text-align: center;
+        border-top: 70px solid transparent;
+        margin-top: -70px;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
     }
     
     #service h1 {
@@ -89,14 +94,21 @@
 
     #about {
 	    background: #27496C;
-	    padding: 70px 0px ;
+	    padding-bottom: 90px;
 	    display: block;
         width: 100%;
         overflow: hidden;
         position: relative;
 	    z-index: 900;
+/*
         -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.9);
 	    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.9);
+*/
+        border-top: 70px solid transparent;
+        margin-top: -70px;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
     }
     
     #about h1 {
@@ -116,12 +128,17 @@
     
     #portfolio {
 	    background: #27496C;
-	    padding: 70px 0px ;
+	    padding-bottom: 70px;
 	    display: block;
         width: 100%;
         overflow: hidden;
         position: relative;
 	    z-index: 900;
+        border-top: 70px solid transparent;
+        margin-top: -70px;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
     }
     
     #portfolio h1 {
@@ -143,13 +160,18 @@
     
     #team {
 	    background: #3B7EB5;
-	    padding: 70px 0px ;
+	    padding-bottom: 70px;
 	    display: block;
         width: 100%;
         overflow: hidden;
         position: relative;
 	    z-index: 900;
 	    text-align: center;
+        border-top: 70px solid transparent;
+        margin-top: -70px;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
     }
     
     #team h1 {
@@ -217,12 +239,17 @@
     
     #process {
 	    background: #3B7EB5;
-	    padding: 50px 0px ;
+	    padding-bottom: 70px;
 	    display: block;
         width: 100%;
         overflow: hidden;
         position: relative;
 	    z-index: 900;
+        border-top: 70px solid transparent;
+        margin-top: -70px;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
     }
     
     #process h1 {
@@ -254,14 +281,21 @@
     
     #facts {
 	    background: #27496C url("../img/pattern_theme_1.svg") repeat;
-	    padding: 70px 0px ;
+	    padding-bottom: 70px;
 	    display: block;
         width: 100%;
         overflow: hidden;
         position: relative;
 	    z-index: 900;
+/*
 	    -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.9);
 	    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.9);
+*/
+        border-top: 70px solid transparent;
+        margin-top: -70px;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
     }
     
     #facts h1 {
@@ -293,14 +327,21 @@
     #contact {
 /*        background: #27496C url("../img/pattern_theme_1.svg") repeat;*/
 	    background: #27496C;
-	    padding: 120px 0px 120px 0px;
+	    padding-bottom: 120px;
 	    display: block;
         width: 100%;
         overflow: hidden;
         position: relative;
 	    z-index: 900;
+/*
 	    -webkit-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.9);
 	    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.9);
+*/
+         border-top: 70px solid transparent;
+        margin-top: -70px;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
     }
     
     #contact h1 {
