@@ -61,11 +61,6 @@
     .service-col h4 {
 	    color: #fff;
 	}
-	
-	.service-col:hover h4 {
-	    color: #3B7EB5 !important;
-	    border-bottom: 1px solid #fff;
-    }
     
     .service-col p {
 	    color: #ffffff;
@@ -327,7 +322,7 @@
     #contact {
 /*        background: #27496C url("../img/pattern_theme_1.svg") repeat;*/
 	    background: #27496C;
-	    padding-bottom: 120px;
+	    padding-bottom: 100px;
 	    display: block;
         width: 100%;
         overflow: hidden;
