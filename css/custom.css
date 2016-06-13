@@ -145,6 +145,17 @@
     	height: 710px;
      	text-align: center;
     	z-index: 100;
+        position: relative;
+    }
+
+    #top-slider .slider-bg {
+    	background: url(../img/Artboard.png) 0 0 no-repeat fixed;	
+    	margin: 0 auto;
+    	padding: 0;
+    	position: relative;
+    	z-index: 100;
+    	width: 100%;
+    	height: 800px;
     }
     
     .logo {
@@ -915,6 +926,11 @@
     @media only screen and (min-width: 1200px) {
     
     /* Top Slider */
+     #top-slider .slider-bg {
+        background-size: cover;
+    }
+        
+    /* Top Slider */
     
     .slider-caption {
 	    padding-top: 10px;
@@ -926,7 +942,7 @@
         max-width: 200px;
         max-height: 200px;
     }
-    
+        
     /* About Us */
     
     .agency-image {
@@ -1034,6 +1050,15 @@
      	text-align: center;
     	z-index: 100;
     }
+        
+    #top-slider .slider-bg {
+   	 	margin: 0 auto;
+		padding: 0;
+		position: absolute;
+		z-index: 100;
+		width: 100%;
+		height: 600px;
+    }    
         
     .logo {
         margin: 0 auto;
@@ -1214,6 +1239,15 @@
      	text-align: center;
     	z-index: 100;
     }
+        
+    #top-slider .slider-bg {
+   	 	margin: 0 auto;
+		padding: 0;
+		position: absolute;
+		z-index: 100;
+		width: 100%;
+		height: 600px;
+    }    
         
     .logo {
         margin: 0 auto;
