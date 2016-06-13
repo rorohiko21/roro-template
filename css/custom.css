@@ -142,14 +142,14 @@
 
     #top-slider {
     	width: 100%;
-    	height: 710px;
+    	height: 800px;
      	text-align: center;
     	z-index: 100;
         position: relative;
     }
 
     #top-slider .slider-bg {
-    	background: url(../img/Artboard.png) 0 0 no-repeat fixed;	
+    	background: url(../img/top-section-bg-with-black-overlay.jpg) 0 0 no-repeat fixed;	
     	margin: 0 auto;
     	padding: 0;
     	position: relative;
