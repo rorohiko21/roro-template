@@ -57,7 +57,9 @@ $(document).ready(function() { //when the document is ready...
 	//function to be called whenever the window is scrolled or resized
 	function Move(){ 
 		var pos = $window.scrollTop(); //position of the scrollbar
-
+        
+        setOpacityOfRoroText(pos);
+        
 		//if the first section is in view...
 		if($firstBG.hasClass("inview")){
 			//call the newPos function and change the background position
@@ -78,6 +80,21 @@ $(document).ready(function() { //when the document is ready...
 		
 		$('#pixels').html(pos); //display the number of pixels scrolled at the bottom of the page
 	}
+    
+    var navBarRoroText = document.getElementById('roro-logo-text');
+    var navStartShowingRoroPoint = 300;
+    var navCompleteShowingRoroPoint = 500;
+    var diff = navCompleteShowingRoroPoint - navStartShowingRoroPoint;
+    
+    function setOpacityOfRoroText(pos) {
+        if(pos < navStartShowingRoroPoint) {
+            navBarRoroText.style.opacity = 0;
+        } else if(pos >= navStartShowingRoroPoint && pos < navCompleteShowingRoroPoint) {
+            navBarRoroText.style.opacity = ((pos - navStartShowingRoroPoint) / diff);
+        } else {
+            navBarRoroText.style.opacity = 1.0;
+        }
+    }
 		
 	RepositionNav(); //Reposition the Navigation to center it in the window when the script loads
 	
