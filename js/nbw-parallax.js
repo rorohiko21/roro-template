@@ -63,7 +63,7 @@ $(document).ready(function() { //when the document is ready...
 			//call the newPos function and change the background position
 			$firstBG.css({'backgroundPosition': newPos(0, windowHeight, pos, 0, 0)}); 
 			//call the newPos function and change the second background position
-			bg1.css({'backgroundPosition': newPos(50, windowHeight, pos, 790, 0.3)});
+			bg1.css({'backgroundPosition': newPos(0, windowHeight, pos, windowHeight, 0.3)});
 		}
 		
 		//if the second section is in view...
