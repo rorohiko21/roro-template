@@ -53,6 +53,10 @@ $(document).ready(function() { //when the document is ready...
 	function newPos(x, windowHeight, pos, adjuster, inertia){
 		return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "px";
 	}
+    
+    function newPosForBG1(x, windowHeight, pos, adjuster, inertia){
+		return x + "px " + (-((windowHeight + pos) - adjuster) * inertia)  + "px";
+	}
 	
 	//function to be called whenever the window is scrolled or resized
 	function Move(){ 
@@ -65,7 +69,16 @@ $(document).ready(function() { //when the document is ready...
 			//call the newPos function and change the background position
 			$firstBG.css({'backgroundPosition': newPos(0, windowHeight, pos, 0, 0)}); 
 			//call the newPos function and change the second background position
-			bg1.css({'backgroundPosition': newPos(0, windowHeight, pos, windowHeight, 0.3)});
+
+            var windowWidth = $window.width();
+        
+            if(windowWidth > 767) {
+                bg1.css({'backgroundPosition': newPosForBG1(-(1440 - windowWidth), windowHeight, pos, windowHeight, 0.3)});
+            } else if(windowWidth > 379) {
+                bg1.css({'backgroundPosition': newPos(0, windowHeight, pos, windowHeight, 0.3)});
+            } else {
+                bg1.css({'backgroundPosition': newPosForBG1(-(379 - windowWidth), windowHeight, pos, windowHeight, 0.3)});
+            }
 		}
 		
 		//if the second section is in view...
@@ -106,5 +119,4 @@ $(document).ready(function() { //when the document is ready...
 	$window.bind('scroll', function(){ //when the user is scrolling...
 		Move(); //move the background images in relation to the movement of the scrollbar
 	});
-	
 });
