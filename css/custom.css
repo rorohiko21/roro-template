@@ -1275,12 +1275,29 @@
     }
         
     #top-slider .slider-bg {
-        position: fixed;
+		position: fixed;
 		z-index: 100;
+        background: url(../img/top_section_bg_379.jpg) center center no-repeat;
 		width: 100%;
 		height: 600px;
         top: 80px;
-    }    
+        background-size: cover;
+    }   
+        
+    /*CSS for serving the retina image to devices with a high "device-pixel-ratio":*/
+    @media	
+    only screen and (-webkit-min-device-pixel-ratio: 1.3),
+    only screen and (-o-min-device-pixel-ratio: 13/10),
+    only screen and (-moz-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 120dpi),
+    only screen and (min-resolution: 1.5dppx) {
+        
+        /* Top Slider */
+        #top-slider .slider-bg {
+            background-size: cover;
+            background-image: url(../img/top_section_bg_379@2x.jpg);
+        }
+	}    
         
     .logo {
         margin: 0 auto;
