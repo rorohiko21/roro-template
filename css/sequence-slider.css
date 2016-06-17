@@ -139,7 +139,6 @@ h2 {
   color: white;
   font-family: "Roboto", serif;
   font-weight: 200;
-  text-transform: uppercase;
   border: 1px solid #fff;
 }
 
@@ -172,15 +171,27 @@ h3 {
 .title {
   font-size: 50px;
   text-align: center;
-  left: 70%;
-  width: 35%;
+  width: 50%;
   opacity: 0;
   bottom: 1%;
   z-index: 50;
+  letter-spacing: 2px;
+}
+
+
+@media (max-width: 767px) {
+    .title {
+      font-size: 40px;
+    }
+}
+
+@media (max-width: 380px) {
+    .title {
+      font-size: 35px;
+    }
 }
 
 .animate-in .title {
-  left: 45%;
   opacity: 1;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
@@ -190,7 +201,6 @@ h3 {
 }
 
 .animate-out .title {
-  left: 40%;
   opacity: 0;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
@@ -204,7 +214,7 @@ h3 {
   text-align: center;
   font-size: 30px;
   left: 85%;
-  width: 35%;
+  width: 50%;
   opacity: 0;
   top: 101%;
 }

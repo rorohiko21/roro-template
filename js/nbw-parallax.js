@@ -75,7 +75,7 @@ $(document).ready(function() { //when the document is ready...
             if(windowWidth > 767) {
                 bg1.css({'backgroundPosition': newPosForBG1(-(1440 - windowWidth), windowHeight, pos, windowHeight, 0.3)});
             } else if(windowWidth > 379) {
-                bg1.css({'backgroundPosition': newPos(0, windowHeight, pos, windowHeight, 0.3)});
+                bg1.css({'backgroundPosition': newPosForBG1(-(767 - windowWidth)/2, windowHeight, pos, windowHeight, 0.3)});
             } else {
                 bg1.css({'backgroundPosition': newPosForBG1(-(379 - windowWidth), windowHeight, pos, windowHeight, 0.3)});
             }
@@ -95,8 +95,8 @@ $(document).ready(function() { //when the document is ready...
 	}
     
     var navBarRoroText = document.getElementById('roro-logo-text');
-    var navStartShowingRoroPoint = 300;
-    var navCompleteShowingRoroPoint = 500;
+    var navStartShowingRoroPoint = 500;
+    var navCompleteShowingRoroPoint = 700;
     var diff = navCompleteShowingRoroPoint - navStartShowingRoroPoint;
     
     function setOpacityOfRoroText(pos) {
