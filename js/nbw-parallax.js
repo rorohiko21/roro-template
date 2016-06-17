@@ -72,7 +72,7 @@ $(document).ready(function() { //when the document is ready...
 
             var windowWidth = $window.width();
             var topSectionHeight = $window.height() - 90; 
-            document.getElementById("vertical-center").style.paddingTop = ((topSectionHeight - 220) / 2) + "px";
+            document.getElementById("vertical-center").style.paddingTop = ((topSectionHeight - 300) / 2) + "px";
             
             if(windowWidth > 767) {
                 bg1.css({'backgroundPosition': newPosForBG1(-(1440 - windowWidth), windowHeight, pos, windowHeight, 0.3)});
